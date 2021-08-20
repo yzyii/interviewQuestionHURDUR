@@ -12,13 +12,14 @@ class Main {
         JobProvider d = new SillyJobProvider();
         JobProvider e = new FunnyJobProvider();
         
-        // Run these for an example of how your data might look like
+        // You can uncomment and run these for an example of how your data might look like
         // Notice that we are limiting the output here to 10 jobs but each job provider could provide an unlimited number of jobs.
-        printJobs(a, 10, "CoolJobProvider");
-        printJobs(b, 10, "AwesomeJobProvider");
-        printJobs(c, 10, "DumbJobProvider");
-        printJobs(d, 10, "SillyJobProvider");
-        printJobs(e, 10, "FunnyJobProvider");
+        // Re-comment these lines when you run your actual solution.
+        //printJobs(a, 10, "CoolJobProvider");
+        //printJobs(b, 10, "AwesomeJobProvider");
+        //printJobs(c, 10, "DumbJobProvider");
+        //printJobs(d, 10, "SillyJobProvider");
+        //printJobs(e, 10, "FunnyJobProvider");
         
         List<JobProvider> providers = new ArrayList();
         providers.add(a);
